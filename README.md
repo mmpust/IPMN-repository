@@ -86,8 +86,7 @@ clinical_data$Cyst_Characteristics$Tumor_Location
 ```
 
 #### Quality control of the runs with positive controls <br>
-<img width="990" alt="Screenshot 2023-08-25 at 14 47 45" src="https://github.com/mmpust/IPMN-repository/assets/74159013/cdc8a82b-73ae-4ba3-b8e9-b3fc08f50663">
-
+![Positive Controls](./Figures/positiveControls.1.png)
 
 #### Information about the R session <br>
 ```
