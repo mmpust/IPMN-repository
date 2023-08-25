@@ -1,9 +1,12 @@
-## There is no pancreatic cyst microbiome
-<br>
+## Absence of a pancreatic microbiome in Intraductal Papillary Mucinous Neoplasm (IPMN)
+![image](https://github.com/mmpust/IPMN-repository/assets/74159013/1c208c33-8bc0-4846-84f0-f096cbdde1f0)
 
+<br><br>
 
+### Metadata key
+```
 
-
+```
 ### Information about the R session <br>
 ```
 R version 4.2.1 (2022-06-23)
