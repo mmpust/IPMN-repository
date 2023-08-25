@@ -14,6 +14,40 @@ Ramnik Xavier<sup>1,2,3#</sup>
 <sup>*</sup>Currently at Department of Microbiology and Immunology, Geisel School of Medicine at Dartmouth, Dartmouth College, Hanover, USA<br>
 
 
+#### Documentation
+```
+#######################################
+# Notes:
+#######################################
+# Customised R functions have been provided in R/base_functions.R
+# and are sourced automatically when running pipeline steps
+
+#######################################
+## Data cleaning (from command-line) ##
+#######################################
+# modify the following info, if required:
+# your working directory, input directory, 
+# the output directory,
+# reference database of choice and
+# filtering parameters
+
+# run script:
+nohup Rscript step01.R
+
+# Three output files are generated
+#
+#
+#
+
+#######################################
+## Data analysis (from command-line) ##
+#######################################
+# specify input files to count tables and statistics
+
+# run script:
+nohup Rscript step02.R
+```
+
 
 #### Metadata key
 ```
@@ -51,10 +85,8 @@ clinical_data$Patient_Clinical_Characteristics$Sex
 clinical_data$Cyst_Characteristics$Tumor_Location
 ```
 
-#### Documentation
-```
-
-```
+#### Quality control of the runs with positive controls <br>
+[positiveControls (1).pdf](https://github.com/mmpust/IPMN-repository/files/12442730/positiveControls.1.pdf)
 
 
 #### Information about the R session <br>
