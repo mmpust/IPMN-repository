@@ -34,16 +34,34 @@ Ramnik Xavier<sup>1,2,3#</sup>
 # run script:
 nohup Rscript step01.R
 
-# Three output files are generated
-#
-#
-#
+# Three output files are generated (end of script):
+  write.table(
+    seqtab.nochim4, 
+    file=paste0(outPath,"/", 
+                out_pref, 
+                "_count_table_decontam.csv", sep=""), 
+    sep=",", row.names = TRUE, col.names = NA)
+  
+  # count table
+  write.table(
+    seqtab.nochim3_cont, 
+    file=paste0(outPath,"/", 
+                out_pref, 
+                "_count_table_contam.csv", sep=""), 
+    sep=",", row.names = TRUE, col.names = NA)
+  
+  # filter statistics
+  write.table(
+    track2, 
+    file=paste(outPath,"/", 
+               out_pref, 
+               "_filt_stats.csv", sep=""), 
+    sep=",", row.names = TRUE, col.names = NA)
 
 #######################################
 ## Data analysis (from command-line) ##
 #######################################
 # specify input files to count tables and statistics
-
 # run script:
 nohup Rscript step02.R
 ```
