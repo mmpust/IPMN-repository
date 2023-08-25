@@ -1,13 +1,34 @@
 ## Absence of a pancreatic microbiome in Intraductal Papillary Mucinous Neoplasm (IPMN)
-![image](https://github.com/mmpust/IPMN-repository/assets/74159013/1c208c33-8bc0-4846-84f0-f096cbdde1f0)
 
-<br><br>
+#### Authors and affiliations
 
-### Metadata key
+Marie-Madlen Pust<sup>1,2,3</sup>, Darío Missael Rocha Castellanos<sup>4</sup>,
+Kara Rzasa<sup>1*</sup>, Andrea Dame<sup>1</sup>, Gleb Pishchany<sup>1,5</sup>,
+Charnwit Assawasirisin<sup>4</sup>, Andrew Liss<sup>4</sup>,
+Carlos Fernández-del Castillo<sup>4#</sup>,
+Ramnik Xavier<sup>1,2,3#</sup>
+
+<sup>1</sup>Broad Institute of MIT and Harvard, Cambridge, USA. <br>
+<sup>2</sup>Center for Computational and Integrative Biology, Massachusetts General Hospital, Boston, USA.<br>
+<sup>3</sup>Department of Medicine, Harvard Medical School, Boston, USA.<br>
+<sup>4</sup>Department of Surgery, Massachusetts General Hospital & Harvard Medical School, Boston, USA.<br>
+<sup>5</sup>Department of Biological Chemistry and Molecular Pharmacology, Harvard Medical School, Boston, USA.<br>
+<sup>*</sup>Currently at Department of Microbiology and Immunology, Geisel School of Medicine at Dartmouth, Dartmouth College, Hanover, USA<br>
+
+
+
+#### Metadata key
 ```
 
 ```
-### Information about the R session <br>
+
+#### Documentation
+```
+
+```
+
+
+#### Information about the R session <br>
 ```
 R version 4.2.1 (2022-06-23)
 Platform: x86_64-pc-linux-gnu (64-bit)
