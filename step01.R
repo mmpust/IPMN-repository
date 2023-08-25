@@ -1,15 +1,15 @@
 # Data cleaning and filtering
 ########################
-#### load packages ####
-library(dada2)
-library(ggplot2)
-library(readr)
-library(decontam)
-########################
-
 # source functions
 source("baseFunctions.R")
 
+#### load packages ####
+which_packages <- c(
+  "dada2", "ggplot2", 
+  "readr", "decontam")
+get_packages(which_packages)
+
+########################
 # Define reference sequence
 ref_path = "/home/mmp/16S_ref_seqs/GTDB_bac120_arc122_ssu_r89_mod.fa"
 # import FASTQ
