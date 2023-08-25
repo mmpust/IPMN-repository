@@ -1,7 +1,5 @@
 ## Absence of a pancreatic microbiome in Intraductal Papillary Mucinous Neoplasm (IPMN)
 
-#### Authors and affiliations
-
 Marie-Madlen Pust<sup>1,2,3</sup>, Darío Missael Rocha Castellanos<sup>4</sup>,
 Kara Rzasa<sup>1*</sup>, Andrea Dame<sup>1</sup>, Gleb Pishchany<sup>1,5</sup>,
 Charnwit Assawasirisin<sup>4</sup>, Andrew Liss<sup>4</sup>,
@@ -19,7 +17,38 @@ Ramnik Xavier<sup>1,2,3#</sup>
 
 #### Metadata key
 ```
+# Create the dictionary
+clinical_data <- list(
+  
+  Patient_Clinical_Characteristics = list(
+    Sex = c(Male=1, Female=2),
+    Jaundice = c(Yes=1, No=0),
+    Pancreatitis = c(Yes=1, No=2),
+    Endoscopic_Ultrasound = c(Yes=1, No=0),
+    Fine_Needle_Aspiration = c(Yes=2, No=1)
+  ),
+  
+  Cyst_Characteristics = list(
+    Mural_Node = c(Yes=1, No=0),
+    Tumor_Location = c(Body=0, Head=1,
+                       Tail=2, Uncinate_Process=3,
+                       Neck=4),
+    Cyst_Type = c(BD_IPMN=1, MD_IPMN=2, Mixed_IPMN=3,
+                  Neuroendocrine_Tumor=4, MCN=5,
+                  Serous_Cystadenoma=6, Pseudocyst=7,
+                  Adenocarcinoma_CystComponent=8, Other_Cyst=9),
+    Grade_Consensus = c(Low_Grade=1, High_Grade=2),
+    Epithelial = c(Intestinal=1, Gastric=2,
+                   Pancreatobiliary=3,
+                   Oncocytic=4, Mixed=5),
+    IPMN_Invasive_Component = c(Yes=2, No=1)
+  )
+  
+)
 
+# Access elements in the dictionary
+clinical_data$Patient_Clinical_Characteristics$Sex
+clinical_data$Cyst_Characteristics$Tumor_Location
 ```
 
 #### Documentation
